@@ -1,0 +1,42 @@
+= Ecm::Meta
+
+= Installation
+
+  # Gemfile
+  gem 'therubyracer', platforms: :ruby
+  gem 'ecm_meta'
+
+  Run bundler
+  bundle install
+
+Run:
+
+  rails g ecm:meta:setup
+  rails g ecm:meta:configure
+  rails g ecm:meta:install
+  rails g ecm:meta:migrations
+
+This project rocks and uses MIT-LICENSE.
+
+gem 'ecm_meta', path: '~/rails/ecm/ecm_meta'
+
+gem 'ecm_cms2',        path: '~/rails/ecm/ecm_cms2'
+gem 'ecm_contact2',    path: '~/rails/ecm/ecm_contact2'
+gem 'ecm_downloads2',  path: '~/rails/ecm/ecm_downloads2'
+gem 'ecm_links2',      path: '~/rails/ecm/ecm_links2'
+gem 'ecm_pictures2',   path: '~/rails/ecm/ecm_pictures2'
+gem 'ecm_references2', path: '~/rails/ecm/ecm_references2'
+gem 'ecm_user_area2',  path: '~/rails/ecm/ecm_user_area2'
+gem 'ecm_youtube',     path: '~/rails/ecm/ecm_youtube'
+
+gem 'ecm_cms2_backend',        path: '~/rails/ecm/ecm_cms2_backend'
+gem 'ecm_downloads2_backend',  path: '~/rails/ecm/ecm_downloads2_backend'
+gem 'ecm_links2_backend',      path: '~/rails/ecm/ecm_links2_backend'
+gem 'ecm_news2_backend',       path: '~/rails/ecm/ecm_news2_backend'
+gem 'ecm_pictures2_backend',   path: '~/rails/ecm/ecm_pictures2_backend'
+gem 'ecm_references2_backend', path: '~/rails/ecm/ecm_references2_backend'
+gem 'ecm_user_area2_backend',  path: '~/rails/ecm/ecm_user_area2_backend'
+gem 'ecm_youtube_backend',     path: '~/rails/ecm/ecm_youtube_backend'
+
+gem 'rails_translates_value', path: '~/rails/gems/rails_translates_value'
+gem 'itsf_backend',           path: '~/rails/itsf/itsf_backend'
